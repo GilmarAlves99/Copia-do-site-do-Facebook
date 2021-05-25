@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    top: 150px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.conteudo {
+    background-color: royalblue;
+    position: relative;
+}
+
+.part1 {
+    top: 50px;
+    width: 50%;
+    float: left;
+    height: 500px;
+    position: relative;
+}
+
+.part1 h1 {
+    color: blue;
+    font-size: 4rem;
+    font-family: inherit;
+}
+
+.part1 p {
+    top: -30px;
+    position: relative;
+    font-size: 2.3rem;
+    padding-right: 0px;
+}
+
+.part2 {
+    float: right;
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    top: 50px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 10px;
+}
+
+input {
+    position: relative;
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    border-radius: 5px;
+    width: 410px;
+    padding-left: 30px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.sub {
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgba(27, 27, 250, 0.747);
+    width: 93%;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+}
+
+.form2 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a.link {
+    color: rgba(0, 0, 255, 0.76);
+    font-size: 1.2em;
+}
+
+hr {
+    position: relative;
+    border: 1;
+    margin: 20px;
+}
+
+.sub2 {
+    background-color: rgb(2, 228, 2);
+    width: 40%;
+    top: -10px;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: 0;
+}
+
+.part2 p {
+    position: relative;
+    top: 15px;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+a.link2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
