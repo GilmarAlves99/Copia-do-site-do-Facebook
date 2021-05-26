@@ -2,12 +2,15 @@ body {
     background-color: #f0f2f5;
 }
 
-.container {
-    top: 150px;
-    width: 80%;
+.flex-container {
+    top: 80px;
+    width: 100%;
     height: 500px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .conteudo {
@@ -15,41 +18,39 @@ body {
     position: relative;
 }
 
-.part1 {
+.part {
+    margin-left: 10%;
     top: 50px;
-    width: 50%;
-    float: left;
+    width: 600px;
     height: 500px;
     position: relative;
 }
 
-.part1 h1 {
-    color: blue;
-    font-size: 4rem;
-    font-family: inherit;
+.part .fb_logo {
+    height: 136px;
+    position: relative;
+    top: 80px;
+    left: 00px;
 }
 
-.part1 p {
-    top: -30px;
+.part p.face {
+    top: 20px;
+    text-align: justify;
+    left: 20px;
+    width: 600px;
     position: relative;
     font-size: 2.3rem;
     padding-right: 0px;
 }
 
-.part2 {
-    float: right;
-    width: 50%;
-    height: 500px;
-    position: relative;
-}
-
 form {
     background-color: white;
     border-radius: 10px;
-    width: 70%;
-    height: 80%;
-    margin: auto;
-    top: 50px;
+    width: 80%;
+    margin-left: -30px;
+    height: 87%;
+    top: 30px;
+    padding: 0 10px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 10px;
 }
@@ -59,16 +60,16 @@ input {
     margin: 15px;
     border: 1px solid rgba(0, 0, 0, 0.068);
     border-radius: 5px;
-    width: 410px;
+    width: 85%;
     padding-left: 30px;
     height: 50px;
     font-size: 20px;
 }
 
 .sub {
-    padding: 5px;
+    padding: 30px -10px 30px;
     font-weight: bold;
-    background-color: rgba(27, 27, 250, 0.747);
+    background-color: #1877f2;
     width: 93%;
     color: white;
     font-size: 1.5rem;
@@ -93,22 +94,23 @@ hr {
 }
 
 .sub2 {
-    background-color: rgb(2, 228, 2);
-    width: 40%;
+    background-color: #42b72a;
+    width: 35%;
     top: -10px;
     font-weight: bold;
-    padding: 0;
     color: white;
-    font-size: 1.3rem;
-    padding: 10px;
-    border: 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
 }
 
-.part2 p {
+.part p {
     position: relative;
-    top: 15px;
+    top: 45px;
     color: rgba(0, 0, 0, 0.705);
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -116,3 +118,43 @@ a.link2 {
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
+@media (max-width: 900px) {
+    /* estilos aqui */
+    .flex-container {
+        top: -130px;
+        left: -30px;
+        margin: auto;
+    }
+    .part p.face {
+        text-align: center;
+        width: 500px;
+    }
+    form {
+        top: -100px;
+        margin: auto;
+    }
+    .part .fb_logo {
+        margin-left: 12%;
+    }
+}
+
+
+/* Telefones em paisagem a tablet em retrato 
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* estilos aqui 
+    div.caixa {
+        top: 40px;
+        width: 80vw;
+        height: 65vh;
+    }
+    h1 {
+        font-size: 2rem;
+        line-height: 20px;
+    }
+    .caixa p {
+        line-height: 50px;
+    }
+}
+*/
